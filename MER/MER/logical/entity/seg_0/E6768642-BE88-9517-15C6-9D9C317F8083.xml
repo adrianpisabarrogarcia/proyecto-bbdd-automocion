@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6768642-BE88-9517-15C6-9D9C317F8083" name="MATERIAL">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:37:08 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_MATERIAL" id="A091C91F-6FBB-A7AD-1494-74A8DC4DB466">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:37:16 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="A013283E-C951-CE0D-3741-7BCE1E959C68">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:37:28 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="3CD62863-5823-8712-0723-D7C73AA15549">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:37:47 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IMAGEN" id="4A206BD7-A90E-C733-4DFF-29F31E8AE220">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:38:11 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD33455B-AD96-E4A4-1572-238242B0CD10" name="MATERIAL PK">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:37:26 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A091C91F-6FBB-A7AD-1494-74A8DC4DB466</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

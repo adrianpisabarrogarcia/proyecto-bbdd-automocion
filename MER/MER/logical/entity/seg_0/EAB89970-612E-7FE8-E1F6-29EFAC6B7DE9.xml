@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAB89970-612E-7FE8-E1F6-29EFAC6B7DE9" name="SUBCATEGORIA">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:39:01 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_SUBCATEGORIA" id="26B6AC60-3880-B1EA-DA51-3D33F15D4211">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:39:08 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="A4E22378-F2E4-6316-8191-83A92AF74605">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:40:03 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CATEGORIA1" id="6CD8D45B-899D-1489-40C3-4159296084A4">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 12:13:18 UTC</createdTime>
+<generatorID>0EF9A96D-23E6-595D-2838-D913EC3369A7</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<referedAttribute>08668954-68F6-4986-3FDD-2C13C7CE52DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADABB458-0E30-38CD-20A5-6FDD86A823A9" name="SUBCATEGORIA PK">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:39:22 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26B6AC60-3880-B1EA-DA51-3D33F15D4211</attributeRef>
+<attributeRef>6CD8D45B-899D-1489-40C3-4159296084A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

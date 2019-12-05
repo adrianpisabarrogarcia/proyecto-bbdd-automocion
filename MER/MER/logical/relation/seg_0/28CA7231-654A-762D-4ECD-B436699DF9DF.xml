@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REPARAR" directorySegmentName="seg_0" id="28CA7231-654A-762D-4ECD-B436699DF9DF">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 12:30:04 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>REPARAR</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4BBC67B1-B99F-E0CC-8992-F0780B669628</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4CF0999E-8E45-426E-B09C-A14072F1DA92</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

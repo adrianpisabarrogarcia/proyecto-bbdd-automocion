@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C9C5E52-1CC8-D9B5-D520-4C380F5FCF25" name="CLIENTE">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:07:59 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_CLIENTE" id="E4FBCF3D-4B30-F37D-843A-DA02A3C7E5C9">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 12:25:10 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="A0CECA21-C814-095B-7E75-C9BFDC9B57F3">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:10:43 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="3A5214A1-4ACA-E946-B2B7-0D6FD1056985">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 12:25:35 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO1" id="8AF52318-DE2A-550D-FBC8-BC49B2317888">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 12:25:48 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO2" id="DA22C81A-557D-F08B-41D4-145E4C9EEC91">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 12:25:22 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="0B7CD9BD-5406-911E-225B-885A62D974CD">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:12:41 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO2" id="E07D1326-C7BA-E7FF-19AA-9C2FB04A2551">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:14:29 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_REGISTRO" id="1B806D89-BFCF-D310-74BF-A188B14730FE">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:15:43 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_NACIMIENTO" id="4EEFD0FA-8B43-C246-219D-988DDC8A4FFD">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:16:32 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94D5EB06-0CDC-067D-12C7-8623D960BE4C" name="CLIENTE PK">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:10:36 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4FBCF3D-4B30-F37D-843A-DA02A3C7E5C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,298 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CF0999E-8E45-426E-B09C-A14072F1DA92" name="VEHICULO">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:20:54 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_VEHICULO" id="6B78A458-CAEE-CB63-7DCD-D4F37408E863">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:27:42 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MATRICULA" id="FC1D84F1-FE0A-A0AF-649C-804281118478">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:21:03 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARCA" id="9F746B42-AA56-AFF7-8919-A16AFFAB9FFF">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:21:20 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODELO" id="93337128-76B0-0D6F-7557-041E5654FCF9">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:25:50 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VERSION" id="CA97B958-A4AB-39FC-C744-241CFAC8A269">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:25:59 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COLOR" id="B1A0525F-666C-31B0-AF6C-2376E29B5A8D">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:26:18 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BASTIDOR" id="1942E27C-439C-A140-6DB8-C4DF1EB4B36B">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:26:30 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_MOTOR" id="3AA382B8-60BA-847D-1572-F943893EB53B">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:26:41 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_ENTRADA" id="CFDACF70-B6D8-7B74-1786-C31E667C686F">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:27:09 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_SALIDA" id="C9A27714-E612-773D-4EA8-0EE79424F38B">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:27:33 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_MATRICULACION" id="942E4DBC-FD88-8D8B-D09F-908F83D5626D">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:29:11 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_FIN_GARANTIA" id="45C38871-B3C2-B5FC-A4E9-C1E15F80FBFB">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:29:28 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CADUCIDAD_EXTINTOR1" id="1B553AC0-9AFA-8A2A-8ED1-9E5FA206616C">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:30:25 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CADUCIDAD_EXTINTOR2" id="0CEC9B48-11D9-ED0B-CF2E-025F2FC82B1E">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:31:08 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROXIMA_VERSION" id="59EDFF47-AB5A-19B4-D3FF-9F1A507D252D">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:31:45 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIN_SEGURO" id="8CA9623B-A143-348C-06C4-FF8E56473AAD">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:31:59 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ITV" id="DB4EA012-DAB5-9056-031E-BC61F1619F1A">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:42:13 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AIS" id="88A5ED49-5A98-5BEA-6855-4365ABE9BE19">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:42:27 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OBSERVACION" id="1A64F26C-44B5-284D-5E94-9B8C1CEF41BE">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:43:59 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FOTO" id="22AC7CC2-59D8-30E7-C3B8-166B3F12BF4E">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:44:14 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CLIENTE" id="CA3B72D3-294D-3801-B65D-61A1D40143BA">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 12:29:48 UTC</createdTime>
+<generatorID>E7DF4B9A-4045-24BF-6EB6-B1175786BDD8</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<referedAttribute>E4FBCF3D-4B30-F37D-843A-DA02A3C7E5C9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA1B5727-7A38-670F-DC66-E7ABFD79DB83" name="VEHICULOS PK">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-03 11:21:19 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B78A458-CAEE-CB63-7DCD-D4F37408E863</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

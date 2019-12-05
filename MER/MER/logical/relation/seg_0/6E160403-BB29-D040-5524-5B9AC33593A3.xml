@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CURSAR" directorySegmentName="seg_0" id="6E160403-BB29-D040-5524-5B9AC33593A3">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 12:33:19 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<sourcePk>121C84B8-6177-D2FA-CF90-19637F342AC1</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>CURSAR</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4BBC67B1-B99F-E0CC-8992-F0780B669628</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6FC9ECED-0684-7C77-1DEF-54987E56FB0B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

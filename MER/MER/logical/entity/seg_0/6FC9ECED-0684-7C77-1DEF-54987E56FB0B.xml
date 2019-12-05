@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FC9ECED-0684-7C77-1DEF-54987E56FB0B" name="CURSO">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:47:13 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_CURSO" id="5BDB037A-8677-D897-37EE-ADB798B37771">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:47:18 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="B8343558-B67D-0110-0648-DC00706785F5">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:47:34 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ESTUDIANTE" id="95E436BF-636E-A06B-2CBF-432A8EC20001">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 12:33:48 UTC</createdTime>
+<generatorID>6E160403-BB29-D040-5524-5B9AC33593A3</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<referedAttribute>32A22DC3-34C8-6A73-A7B3-BD122E1FFB8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="241E64C3-30DF-056D-47D8-07AFA401F58F" name="CURSO PK">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:47:33 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5BDB037A-8677-D897-37EE-ADB798B37771</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

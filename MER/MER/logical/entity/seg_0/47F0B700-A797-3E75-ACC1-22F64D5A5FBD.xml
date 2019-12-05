@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47F0B700-A797-3E75-ACC1-22F64D5A5FBD" name="OPERACION">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:33:01 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_OPERACION" id="08F02B78-AF15-1F91-A71D-9987F1012519">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:33:12 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="27AC22B0-F3E0-F7A9-E599-750657CC1FD1">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:33:24 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOCUMENTO" id="9DD7C140-400F-5AF4-EF0B-864F6ADF4649">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:33:42 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_MATERIAL" id="EC54D301-AA0D-9C43-76AB-A6BDA4DA3295">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:59:59 UTC</createdTime>
+<generatorID>20FC750B-6AD8-143F-9D25-01597B5E11CE</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<referedAttribute>A091C91F-6FBB-A7AD-1494-74A8DC4DB466</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CATEGORIA" id="5A3E05CA-B31A-9839-2979-EA164921FEFE">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 12:02:16 UTC</createdTime>
+<generatorID>1FFF3201-6333-24A6-0FDD-D31C5E57F2BE</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<referedAttribute>08668954-68F6-4986-3FDD-2C13C7CE52DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCA0A921-3265-8352-44E0-B690B719FD5B" name="OPERACION PK">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-05 11:33:22 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08F02B78-AF15-1F91-A71D-9987F1012519</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
