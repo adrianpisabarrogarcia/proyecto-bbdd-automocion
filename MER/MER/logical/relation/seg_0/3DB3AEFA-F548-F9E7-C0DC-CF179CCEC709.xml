@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AUTORIZAR REGISTRO" directorySegmentName="seg_0" id="3DB3AEFA-F548-F9E7-C0DC-CF179CCEC709">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-10 07:20:55 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<sourcePk>B53F2DCC-F57F-AFAF-3E1A-38AE63D809FF</sourcePk>
+<targetPk>D5352B25-4309-4251-2FB5-8F4A6FDE8DBE</targetPk>
+<identifying>false</identifying>
+<nameOnSource>AUTORIZAR REGISTRO</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C49A07BD-A30A-01EB-23F3-C2787E6F2892</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6C7BC49A-A199-7D45-984E-47EAF043263D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

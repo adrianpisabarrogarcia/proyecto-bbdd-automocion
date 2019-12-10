@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGISTRAR ENTRADA" directorySegmentName="seg_0" id="D3B9C83F-F962-D14F-3008-2B28D5899718">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-10 06:48:07 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<sourcePk>DA1B5727-7A38-670F-DC66-E7ABFD79DB83</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>REGISTRAR ENTRADA</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4CF0999E-8E45-426E-B09C-A14072F1DA92</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C49A07BD-A30A-01EB-23F3-C2787E6F2892</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

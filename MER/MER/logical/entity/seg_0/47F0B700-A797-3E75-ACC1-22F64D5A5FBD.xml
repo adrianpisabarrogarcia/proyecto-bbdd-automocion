@@ -27,6 +27,18 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="NOMBRE" id="B36C72CD-7AA1-8DAF-7681-1202C758B206">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-09 09:42:07 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="DESCRIPCION" id="27AC22B0-F3E0-F7A9-E599-750657CC1FD1">
 <createdBy>adrianpisabarrogarcia</createdBy>
 <createdTime>2019-12-05 11:33:24 UTC</createdTime>
@@ -91,6 +103,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>08F02B78-AF15-1F91-A71D-9987F1012519</attributeRef>
+<attributeRef>5A3E05CA-B31A-9839-2979-EA164921FEFE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

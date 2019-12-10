@@ -65,6 +65,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_REGISTRO_ENTRADA" id="26F6D8F7-C56E-59DD-F3AB-85B9C11ABF4E">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-10 07:20:55 UTC</createdTime>
+<generatorID>3DB3AEFA-F548-F9E7-C0DC-CF179CCEC709</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<referedAttribute>331E594C-2479-FF73-3D56-05530844DD15</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D5352B25-4309-4251-2FB5-8F4A6FDE8DBE" name="AUTORIZACION PK">

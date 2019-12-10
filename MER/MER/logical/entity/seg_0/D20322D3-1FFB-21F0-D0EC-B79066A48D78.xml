@@ -91,6 +91,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_CATEGORIA" id="36563E44-29E4-C44E-FC60-E8C1B254A16D">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-10 10:45:31 UTC</createdTime>
+<generatorID>FFB12CAE-CEA8-1315-0985-AFF23C760B7C</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<referedAttribute>5A3E05CA-B31A-9839-2979-EA164921FEFE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F5E6A694-25D1-F200-F93E-8988A23E58B1" name="ORDEN PK">

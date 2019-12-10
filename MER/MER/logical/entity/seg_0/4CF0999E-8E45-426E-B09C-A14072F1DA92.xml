@@ -111,31 +111,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FECHA_ENTRADA" id="CFDACF70-B6D8-7B74-1786-C31E667C686F">
-<createdBy>adrianpisabarrogarcia</createdBy>
-<createdTime>2019-12-03 11:27:09 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="FECHA_SALIDA" id="C9A27714-E612-773D-4EA8-0EE79424F38B">
-<createdBy>adrianpisabarrogarcia</createdBy>
-<createdTime>2019-12-03 11:27:33 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="FECHA_MATRICULACION" id="942E4DBC-FD88-8D8B-D09F-908F83D5626D">
 <createdBy>adrianpisabarrogarcia</createdBy>
 <createdTime>2019-12-03 11:29:11 UTC</createdTime>
@@ -251,19 +226,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="FOTO" id="22AC7CC2-59D8-30E7-C3B8-166B3F12BF4E">
-<createdBy>adrianpisabarrogarcia</createdBy>
-<createdTime>2019-12-05 11:44:14 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT010</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_CLIENTE" id="CA3B72D3-294D-3801-B65D-61A1D40143BA">

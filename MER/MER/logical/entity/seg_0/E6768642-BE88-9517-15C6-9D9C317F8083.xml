@@ -64,6 +64,18 @@
 <logicalDatatype>LOGDT010</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CANTIDAD" id="40D3DE79-9FCD-502C-4BDC-390B7B9ADC22">
+<createdBy>adrianpisabarrogarcia</createdBy>
+<createdTime>2019-12-09 09:28:40 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FD33455B-AD96-E4A4-1572-238242B0CD10" name="MATERIAL PK">
