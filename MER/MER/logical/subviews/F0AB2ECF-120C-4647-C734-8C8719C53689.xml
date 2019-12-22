@@ -98,7 +98,7 @@ editar el texto.</comment>
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="1106" y="370" width="64" height="36"/>
+<labelBounds x="1106" y="370" width="66" height="36"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
