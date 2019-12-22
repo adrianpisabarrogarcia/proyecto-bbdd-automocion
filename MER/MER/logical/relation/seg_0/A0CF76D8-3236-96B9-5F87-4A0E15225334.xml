@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ORDENAR_VEHICULO" directorySegmentName="seg_0" id="A0CF76D8-3236-96B9-5F87-4A0E15225334">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HABER" directorySegmentName="seg_0" id="A0CF76D8-3236-96B9-5F87-4A0E15225334">
 <createdBy>adriantxu</createdBy>
 <createdTime>2019-12-22 10:29:38 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
@@ -9,7 +9,7 @@
 <sourcePk>F5E6A694-25D1-F200-F93E-8988A23E58B1</sourcePk>
 <targetPk>B53F2DCC-F57F-AFAF-3E1A-38AE63D809FF</targetPk>
 <identifying>false</identifying>
-<nameOnSource>ORDENAR_VEHICULO</nameOnSource>
+<nameOnSource>HABER</nameOnSource>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

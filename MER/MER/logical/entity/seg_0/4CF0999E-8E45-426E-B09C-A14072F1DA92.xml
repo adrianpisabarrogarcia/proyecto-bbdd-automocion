@@ -163,7 +163,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PROXIMA_VERSION" id="59EDFF47-AB5A-19B4-D3FF-9F1A507D252D">
+<Attribute name="PROXIMA_REVERSION" id="59EDFF47-AB5A-19B4-D3FF-9F1A507D252D">
 <createdBy>adrianpisabarrogarcia</createdBy>
 <createdTime>2019-12-05 11:31:45 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
