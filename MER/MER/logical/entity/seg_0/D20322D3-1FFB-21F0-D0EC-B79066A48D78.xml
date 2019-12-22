@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OBSERVACIONES" id="F823A420-EA8B-56FC-5157-D852A19B1DFD">
+<Attribute name="OBSERVACIONES_OPERARIO" id="F823A420-EA8B-56FC-5157-D852A19B1DFD">
 <createdBy>adrianpisabarrogarcia</createdBy>
 <createdTime>2019-12-05 11:40:38 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
@@ -63,43 +63,15 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_VEHICULO" id="4E4A2A2C-B771-0175-DC97-686219F68BA9">
-<createdBy>adrianpisabarrogarcia</createdBy>
-<createdTime>2019-12-05 11:58:12 UTC</createdTime>
-<generatorID>D71D146B-3732-8BB6-A87E-4ECAD1ED762D</generatorID>
+<Attribute name="COD_REGISTRO_ENTRADA" id="028F4569-03BC-6992-6150-1D439913434D">
+<createdBy>adriantxu</createdBy>
+<createdTime>2019-12-22 10:29:49 UTC</createdTime>
+<generatorID>A0CF76D8-3236-96B9-5F87-4A0E15225334</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
 </engineerTo>
-<referedAttribute>6B78A458-CAEE-CB63-7DCD-D4F37408E863</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_OPERACION" id="8C3B57B2-26B5-7B48-BEA0-63CB353AF7DD">
-<createdBy>adrianpisabarrogarcia</createdBy>
-<createdTime>2019-12-05 12:01:21 UTC</createdTime>
-<generatorID>FFB12CAE-CEA8-1315-0985-AFF23C760B7C</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
-</engineerTo>
-<referedAttribute>08F02B78-AF15-1F91-A71D-9987F1012519</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_CATEGORIA" id="36563E44-29E4-C44E-FC60-E8C1B254A16D">
-<createdBy>adrianpisabarrogarcia</createdBy>
-<createdTime>2019-12-10 10:45:31 UTC</createdTime>
-<generatorID>FFB12CAE-CEA8-1315-0985-AFF23C760B7C</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
-</engineerTo>
-<referedAttribute>5A3E05CA-B31A-9839-2979-EA164921FEFE</referedAttribute>
+<referedAttribute>331E594C-2479-FF73-3D56-05530844DD15</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

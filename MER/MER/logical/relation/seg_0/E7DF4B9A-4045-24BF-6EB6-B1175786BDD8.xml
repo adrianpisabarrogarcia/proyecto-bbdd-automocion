@@ -11,7 +11,7 @@
 <nameOnSource>TENER</nameOnSource>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>9C9C5E52-1CC8-D9B5-D520-4C380F5FCF25</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>4CF0999E-8E45-426E-B09C-A14072F1DA92</targetEntity>

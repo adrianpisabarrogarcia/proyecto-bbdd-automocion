@@ -215,33 +215,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OBSERVACION" id="1A64F26C-44B5-284D-5E94-9B8C1CEF41BE">
-<createdBy>adrianpisabarrogarcia</createdBy>
-<createdTime>2019-12-05 11:43:59 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_CLIENTE" id="CA3B72D3-294D-3801-B65D-61A1D40143BA">
-<createdBy>adrianpisabarrogarcia</createdBy>
-<createdTime>2019-12-05 12:29:48 UTC</createdTime>
-<generatorID>E7DF4B9A-4045-24BF-6EB6-B1175786BDD8</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
-</engineerTo>
-<referedAttribute>E4FBCF3D-4B30-F37D-843A-DA02A3C7E5C9</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="DA1B5727-7A38-670F-DC66-E7ABFD79DB83" name="VEHICULOS PK">
