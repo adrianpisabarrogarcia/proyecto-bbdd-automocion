@@ -63,20 +63,6 @@
 <logicalDatatype>LOGDT010</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_MATERIAL" id="EC54D301-AA0D-9C43-76AB-A6BDA4DA3295">
-<createdBy>adrianpisabarrogarcia</createdBy>
-<createdTime>2019-12-05 11:59:59 UTC</createdTime>
-<generatorID>20FC750B-6AD8-143F-9D25-01597B5E11CE</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
-</engineerTo>
-<referedAttribute>A091C91F-6FBB-A7AD-1494-74A8DC4DB466</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_CATEGORIA" id="5A3E05CA-B31A-9839-2979-EA164921FEFE">
 <createdBy>adrianpisabarrogarcia</createdBy>
 <createdTime>2019-12-05 12:02:16 UTC</createdTime>

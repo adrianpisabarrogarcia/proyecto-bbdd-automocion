@@ -52,6 +52,19 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="OBSERVACIONES_CLIENTE" id="35F86DA5-40A7-FCC9-FA4C-B0B2877CD090">
+<createdBy>adriantxu</createdBy>
+<createdTime>2019-12-22 13:49:12 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="FOTO_DELANTERA" id="F47DDF7F-2684-A33A-8B80-06AB0030C1F3">
 <createdBy>adrianpisabarrogarcia</createdBy>
 <createdTime>2019-12-10 06:47:13 UTC</createdTime>
@@ -127,6 +140,20 @@
 <item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
 </engineerTo>
 <referedAttribute>C5FDF19E-DE30-8A6C-5163-8F6C646FAEAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ORDEN" id="F57A2595-02BD-3330-D24B-D495C9022BB8">
+<createdBy>adriantxu</createdBy>
+<createdTime>2019-12-22 13:57:57 UTC</createdTime>
+<generatorID>A0CF76D8-3236-96B9-5F87-4A0E15225334</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<referedAttribute>27F86E94-1DAD-8A47-1113-03E5CE8268AD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

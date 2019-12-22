@@ -51,20 +51,6 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_VEHICULO" id="C25D33C5-600F-2CA6-6AD7-FDE979909EAA">
-<createdBy>adrianpisabarrogarcia</createdBy>
-<createdTime>2019-12-05 11:57:22 UTC</createdTime>
-<generatorID>83A6673B-1E4B-0E80-A30A-77880B78636C</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
-</engineerTo>
-<referedAttribute>6B78A458-CAEE-CB63-7DCD-D4F37408E863</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_REGISTRO_ENTRADA" id="26F6D8F7-C56E-59DD-F3AB-85B9C11ABF4E">
 <createdBy>adrianpisabarrogarcia</createdBy>
 <createdTime>2019-12-10 07:20:55 UTC</createdTime>

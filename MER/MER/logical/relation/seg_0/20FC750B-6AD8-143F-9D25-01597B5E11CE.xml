@@ -10,11 +10,11 @@
 <targetPk>FD33455B-AD96-E4A4-1572-238242B0CD10</targetPk>
 <identifying>false</identifying>
 <nameOnSource>UTILIZAR</nameOnSource>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>47F0B700-A797-3E75-ACC1-22F64D5A5FBD</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>E6768642-BE88-9517-15C6-9D9C317F8083</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

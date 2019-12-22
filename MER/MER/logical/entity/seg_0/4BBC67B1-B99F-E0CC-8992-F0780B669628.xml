@@ -100,6 +100,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_CURSO" id="139A7E07-2739-C6A3-3A18-9C43AB56F90E">
+<createdBy>adriantxu</createdBy>
+<createdTime>2019-12-22 13:59:07 UTC</createdTime>
+<generatorID>6E160403-BB29-D040-5524-5B9AC33593A3</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="0560349E-6AEE-446D-6FEB-940C56FB4535" value="true"/>
+</engineerTo>
+<referedAttribute>5BDB037A-8677-D897-37EE-ADB798B37771</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="121C84B8-6177-D2FA-CF90-19637F342AC1" name="OPERARIOS PK">
