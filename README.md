@@ -8,6 +8,7 @@ Reto propuesto en las asignaturas de BD y Entornos de desarrollo para crear una 
 
 - MER
 - Diagrama de clases
+- Requisitos funcioneles y no funcionales
 
 ## Programas utilizados
 
